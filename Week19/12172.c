@@ -1,3 +1,4 @@
+// The following program uses the math library. Enter compile and run it correctly. 
 #include <math.h>
 #include <stdio.h>
 
