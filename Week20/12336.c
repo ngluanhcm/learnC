@@ -16,3 +16,20 @@ while( scanf( "%c", &ch ) == 1 ) /* one character read
 gcc 12336.c -o 12336 -lm
 ./12336
 */
+
+#include <stdio.h>
+#include <string.h>
+
+int main(void){
+        char string[60];
+        int length, i = 0;
+        printf("Input string: ");
+        scanf("%s",string);
+        length = strlen(string) - 1;
+        while (string[length]){
+                printf("%c",string[length]);
+                length--;
+        }
+        printf("\n");
+       
+}
