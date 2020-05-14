@@ -3,7 +3,8 @@
 // Assume 2.54 centimeters per inch, and 12 inches per foot.
 // If the input value is 333.3, the output format should be:
 // 333.3 centimeters is 10 feet 11.2 inches. 
-
+//  gcc 12277.c -o 12277 -lm
+//  ./12277
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
