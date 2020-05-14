@@ -15,4 +15,4 @@ while( scanf( "%c", &ch ) == 1 ) /* one character read
 
 gcc 12336.c -o 12336 -lm
 ./12336
-*\
+*/
